@@ -1,8 +1,8 @@
 
 import './App.css';
 import Header from "./components/HeaderSection/Header";
-import { HeroSectionStyled } from "./components/HeroSection/HeroSectionStyled";
-import { ContainerStyled } from './components/MainSection/MainSectionStyled';
+import { HeroSectionStyled } from "./components/HeroSection/HeroStyled";
+import { ContainerStyled } from './components/MainSection/MainStyled';
 
 function App() {
   return (

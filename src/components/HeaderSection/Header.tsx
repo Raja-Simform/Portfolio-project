@@ -1,4 +1,4 @@
-import { HeaderStyled } from "./HeaderSectionStyled";
+import { HeaderStyled } from "./HeaderStyled";
 import { LogoStyled } from "../Logo/LogoStyled";
 import { NavigationStyled } from "../Navigation/NavigationStyled";
 import { MobileMenuButtonStyled } from "../MobileMenuButton/MobileMenuButtonStyled";
