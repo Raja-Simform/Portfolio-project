@@ -3,9 +3,10 @@ import styled from "styled-components";
 export const HeroStyled = styled.section`
   display: flex;
   justify-content: space-between;
-  padding: 4rem 3rem;
+  padding: 5rem 10%;
   align-items: center;
   gap: 4rem;
+  
 
   h1 {
     font-size: 7rem;
