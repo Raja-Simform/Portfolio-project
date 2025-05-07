@@ -1,15 +1,8 @@
-import styled from "styled-components";
-import './App.css';
-import Header from "./components/Header/Header";
-import { HeroSection } from "./components/HeroSection/HeroSectionStyled";
-const Container = styled.main`
-  
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  padding-top: 40px; 
-`;
 
+import './App.css';
+import Header from "./components/HeaderSection/Header";
+import { HeroSection } from "./components/HeroSection/HeroSectionStyled";
+import { Container } from './components/MainSection/MainSectionStyled';
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const HeaderComponent = styled.section`
+export const HeaderComponent = styled.section`
   display: flex;
   padding: 1rem 2rem;
   align-items: center;
@@ -15,15 +15,7 @@ const HeaderComponent = styled.section`
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 `;
 
-const Logo = styled.div`
-  p {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin: 0;
-    color: #fdfbfb;
-    font-family: 'Courier New', monospace;
-  }
-`;
+
 
 const Navigation = styled.div`
   display: flex;
@@ -82,35 +74,4 @@ const Navigation = styled.div`
   }
 `;
 
-const MobileMenuButton = styled.button`
-  display: none;
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: #fdfbfb;
-  
-  @media (max-width: 768px) {
-    display: block;
-  }
-`;
 
-export default function Header() {
-  return (
-    <HeaderComponent>
-      <Logo>
-        <p>{"< Raja Jha />"}</p>
-      </Logo>
-      <Navigation className="navigation">
-        <a href="#home">Home</a>
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <button>Resume</button>
-      </Navigation>
-      <MobileMenuButton aria-label="Toggle menu">
-        ☰
-      </MobileMenuButton>
-    </HeaderComponent>
-  );
-}
