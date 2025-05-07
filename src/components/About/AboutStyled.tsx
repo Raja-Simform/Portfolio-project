@@ -9,7 +9,9 @@ export const AboutStyled = styled.section`
     flex-direction: row;
     align-items: center;
     min-height: 90vh;
+    
   }
+
 
   .about-info {
     flex: 3;
@@ -40,7 +42,7 @@ export const AboutStyled = styled.section`
       max-width: 100%;
       height: auto;
       border-radius: 12px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+   
     }
     
     @media (max-width: 991px) {
@@ -53,7 +55,6 @@ export const AboutStyled = styled.section`
     padding: 1.5rem;
     background-color: #3f3d3d;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     
     h3 {
       font-size: 1.4rem;
@@ -111,11 +112,9 @@ export const AboutStyled = styled.section`
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: white;
-      padding: 1rem;
+      padding: 0.5;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      transition: transform 0.3s ease;
       
       &:hover {
         transform: translateY(-5px);
