@@ -1,7 +1,7 @@
 
 import './App.css';
 import Header from "./components/HeaderSection/Header";
-import Hero from './components/HeroSection/HeroSection';
+import Hero from './components/HeroSection/Hero';
 import { ContainerStyled } from './components/MainSection/MainStyled';
 
 function App() {
