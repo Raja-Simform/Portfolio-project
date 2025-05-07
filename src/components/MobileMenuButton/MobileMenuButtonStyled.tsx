@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const MobileMenuButton = styled.button`
+export const MobileMenuButtonStyled = styled.button`
   display: none;
   background: none;
   border: none;

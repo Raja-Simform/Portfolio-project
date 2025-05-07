@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const Navigation = styled.div`
+export const NavigationStyled = styled.div`
   display: flex;
   align-items: center;
   gap: 2rem;
