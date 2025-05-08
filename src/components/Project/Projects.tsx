@@ -4,7 +4,7 @@ export default function Projects(){
     return (
     <ProjectStyled>
       <h2>My Projects</h2>
-      <ProjectCard/>
+      <ProjectCard title={"Calculator"} descritpion={""}/>
       <ProjectCard/>
       <ProjectCard/>
       <ProjectCard/>

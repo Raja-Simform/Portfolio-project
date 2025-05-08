@@ -6,8 +6,14 @@ export default function ProjectCard(){
         <a href=""><img src={github} alt="github"/></a>
         <a href=""><img src={externalLink} alt="github"/></a>
       </div>
-      <div className="title"></div>
-      <div className="description"></div>
-      <div className="footer"></div>
+      <div className="title">
+        <h2></h2>
+      </div>
+      <div className="description">
+        <p></p>
+      </div>
+      <div className="footer">
+        <img src="" alt="" />
+      </div>
     </>)
 }
