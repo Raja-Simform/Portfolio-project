@@ -3,13 +3,7 @@ import externalLink from "../../assets/external-link-icon.svg";
 import { ProjectCardStyled } from "./ProjectCardStyled";
 import { motion, useInView } from "motion/react";
 import { useRef } from "react";
-interface ProjectCardProps {
-  githubProp: string;
-  live: string;
-  title: string;
-  desc: string;
-  technology: string[];
-}
+import type { ProjectCardProps } from "./ProjectCardInterface";
 export default function ProjectCard({
   githubProp,
   live,
