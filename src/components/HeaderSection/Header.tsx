@@ -11,7 +11,7 @@ export default function Header() {
       <NavigationStyled className="navigation">
         <a href="#home">Home</a>
         <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
+        <a href="#project">Projects</a>
         <a href="#contact">Contact</a>
         <button>Resume</button>
       </NavigationStyled>
