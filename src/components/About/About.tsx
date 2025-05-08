@@ -1,6 +1,6 @@
 import { AboutStyled } from "./AboutStyled"
 import { motion, useInView } from "motion/react"
-import rajaImg from '../../assets/raja.PNG'
+import rajaImg from '../../assets/raja.png'
 import python from "../../assets/python.svg"
 import java from "../../assets/java.svg"
 import htmlIcon from "../../assets/html-icon.svg";
