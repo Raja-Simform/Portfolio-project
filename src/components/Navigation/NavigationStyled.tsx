@@ -51,7 +51,32 @@ export const NavigationStyled = styled.div`
   }
   
   @media (max-width: 768px) {
-    display: none;
+  
+    position: fixed;
+    top: 70px; 
+    right: -100%;
+    flex-direction: column;
+    background-color: black;
+    width: 70%;
+    height: calc(100vh - 70px);
+    padding: 2rem;
+    box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease-in-out;
+    z-index: 100;
+
+    &.open {
+      right: 0;
+    }
+
+    a {
+      width: 100%;
+      padding: 1rem 0;
+      border-bottom: 1px solid #6d6b6b;
+      
+      &:last-of-type {
+        border-bottom: none;
+      }
+    }
   }
 `;
   
