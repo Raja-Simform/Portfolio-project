@@ -4,6 +4,7 @@ import About from './components/About/About';
 import Header from "./components/HeaderSection/Header";
 import Hero from './components/HeroSection/Hero';
 import { ContainerStyled } from './components/MainSection/MainStyled';
+import Projects from './components/Projects/Project';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <ContainerStyled>
         <Hero/>
         <About/>
+        <Projects/>
       </ContainerStyled>
     </>
   );
