@@ -1,9 +1,9 @@
 import Form from "../Form/Form";
 import { ContactStyled } from "./ContactStyled";
-import { motion, useInView } from "motion/react";
-import { useRef } from "react";
+// import { motion, useInView } from "motion/react";
+// import { useRef } from "react";
 export default function Contact(){
-    const contactRef=
+    // const contactRef=
     return(
     <ContactStyled id="contact">
          <h2>Contact</h2>
