@@ -14,4 +14,5 @@ export const ProjectStyled = styled.section`
     font-size: 2rem;
     line-height: 1.6;
   }
+  
 `;

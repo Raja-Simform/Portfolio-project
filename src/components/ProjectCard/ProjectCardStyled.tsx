@@ -26,4 +26,7 @@ export const ProjectCardStyled = styled.div`
     flex-direction: column;
     gap: 1rem;
   }
+  @media(max-width:900px){
+    width:80%;
+  }
 `;
