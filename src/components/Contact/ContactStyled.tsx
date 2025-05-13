@@ -6,7 +6,7 @@ export const ContactStyled=styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+   
     h2{
         font-size:2.8rem;
         color: green;
@@ -30,6 +30,11 @@ export const ContactStyled=styled.section`
             text-decoration: none;
 
         }
+        @media(max-width:500px){
+               button{
+                width:6rem;
+               }
+        }
     }
     a {
     text-decoration: none;
@@ -43,6 +48,7 @@ export const ContactStyled=styled.section`
      
     }
     
+    
   
   }
   button {
@@ -53,6 +59,7 @@ export const ContactStyled=styled.section`
     border-radius: 4px;
     font-weight: 500;
     cursor: pointer;
+    box-sizing: border-box;
     transition: background-color 0.3s ease, transform 0.2s ease;
     
     &:hover {
@@ -63,6 +70,7 @@ export const ContactStyled=styled.section`
     &:active {
       transform: translateY(0);
     }
+    
   }
     
 `

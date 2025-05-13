@@ -28,6 +28,13 @@ export const FormStyled=styled.form`
         border: none;
         border-radius: 5px;
     }
-
+    @media(max-width:600px){
+      #email{
+        width: 15rem;
+      }
+      #messege{
+        width: 15rem;
+      }
+      
     
 `
