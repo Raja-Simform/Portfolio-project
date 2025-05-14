@@ -6,9 +6,10 @@ export default function Projects() {
     <ProjectStyled id="project">
       <h2>My Projects</h2>
       <div className="cards">
-        {projects.map((val) => {
+        {projects.map((val,index) => {
           return (
             <ProjectCard
+
              key={val.title}
               title={val.title}
               githubProp={val.github}
