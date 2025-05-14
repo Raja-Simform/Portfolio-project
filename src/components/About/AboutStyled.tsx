@@ -4,12 +4,14 @@ export const AboutStyled = styled.section`
   display: flex;
   padding: 6rem 10%;
   position: relative;
-
+  flex-direction:column-reverse;
   @media (min-width: 992px) {
     flex-direction: row;
     align-items: center;
     min-height: 90vh;
+    
   }
+  
 
   .about-info {
     flex: 3;

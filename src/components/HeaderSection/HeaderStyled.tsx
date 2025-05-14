@@ -13,8 +13,8 @@ export const HeaderStyled = styled.section`
   background-color: rgba(36, 36, 36, 0.9);
   backdrop-filter: blur(5px);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+ 
 `;
-
 
 
 

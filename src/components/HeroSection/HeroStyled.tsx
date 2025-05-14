@@ -149,5 +149,6 @@ export const HeroStyled = styled.section`
     .hero-img img {
       max-width: 280px;
     }
+    padding-top: 15%;
   }
 `;
