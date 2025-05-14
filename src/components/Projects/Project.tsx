@@ -6,7 +6,7 @@ export default function Projects() {
     <ProjectStyled id="project">
       <h2>My Projects</h2>
       <div className="cards">
-        {projects.map((val,index) => {
+        {projects.map((val) => {
           return (
             <ProjectCard
 
