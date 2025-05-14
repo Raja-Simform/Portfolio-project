@@ -9,17 +9,20 @@ export default function Header() {
   function HandleToggle(){
     setOpen(!open);
   }
+  function handleClose(){
+      setOpen(false);
+  }
   return (
     <HeaderStyled>
       <LogoStyled>
         <p>{"< Raja Jha />"}</p>
       </LogoStyled>
       <NavigationStyled className={`navigation ${open ? 'open' : ''}`}>
-        <a href="#home" onClick={()=>setOpen(false)}>Home</a>
-        <a href="#about" onClick={()=>setOpen(false)}>About Me</a>
-        <a href="#projects" onClick={()=>setOpen(false)}>Projects</a>
-        <a href="#contact" onClick={()=>setOpen(false)}>Contact</a>
-        <a href={Resume} download onClick={()=>setOpen(false)} ><button>Resume</button></a>
+        <a href="#home" onClick={handleClose}>Home</a>
+        <a href="#about" onClick={handleClose}>About Me</a>
+        <a href="#project" onClick={handleClose}>Projects</a>
+        <a href="#contact" onClick={handleClose}>Contact</a>
+        <a href={Resume} download onClick={handleClose} ><button>Resume</button></a>
       </NavigationStyled>
       <MobileMenuButtonStyled aria-label="Toggle menu"
        onClick={HandleToggle}>

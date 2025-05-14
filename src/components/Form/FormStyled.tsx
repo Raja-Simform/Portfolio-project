@@ -12,6 +12,7 @@ export const FormStyled=styled.form`
         border: 1px solid white;
         padding-left: 10px;
         background-color: #242424;
+        font-size: large;
     }
     #messege{
         height:10rem;
@@ -20,6 +21,8 @@ export const FormStyled=styled.form`
         border-radius: 8px;
         padding-left: 10px;
         background-color: #242424;
+        font-size:large;
+        word-wrap: break-word;
     }
     button{
         height: 2rem;
@@ -35,6 +38,7 @@ export const FormStyled=styled.form`
       #messege{
         width: 15rem;
       }
+    }  
       
     
 `
