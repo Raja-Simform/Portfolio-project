@@ -5,6 +5,12 @@ export const FormStyled=styled.form`
     flex-direction: column;
     gap: 1rem;
     align-items: center;
+    #form{
+      display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    }
     #email{
         height:3rem;
         width: 30rem;
@@ -24,8 +30,17 @@ export const FormStyled=styled.form`
         font-size:large;
         word-wrap: break-word;
     }
+    #name{
+      height:3rem;
+        width: 30rem;
+        border-radius: 8px;
+        border: 1px solid white;
+        padding-left: 10px;
+        background-color: #242424;
+        font-size: large;
+    }
     button{
-        height: 2rem;
+        
         width: 6rem;
         background-color: green;
         border: none;
@@ -36,6 +51,9 @@ export const FormStyled=styled.form`
         width: 15rem;
       }
       #messege{
+        width: 15rem;
+      }
+      #name{
         width: 15rem;
       }
     }  

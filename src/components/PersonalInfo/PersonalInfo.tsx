@@ -1,12 +1,13 @@
 import { motion, useInView } from "motion/react";
 import type { RefObject } from "react";
+import { PersonalInfoStyled } from "./PersonalInfoStyled";
 interface PersonalInfoProps {
   aboutInfoRef: RefObject<HTMLDivElement | null>;
 }
 export default function PersonalInfo({ aboutInfoRef }: PersonalInfoProps) {
   const isInfoInView = useInView(aboutInfoRef, { once: true, amount: 0.3 });
   return (
-    <>
+    <PersonalInfoStyled>
       <motion.p
         initial={{ opacity: 0, y: 50 }}
         animate={isInfoInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
@@ -39,6 +40,6 @@ export default function PersonalInfo({ aboutInfoRef }: PersonalInfoProps) {
         and have hands-on experience with technologies like React.js, Node.js
         and Android (Java).
       </motion.p>
-    </>
+    </PersonalInfoStyled>
   );
 }
