@@ -11,9 +11,9 @@ export default function Form() {
      setResult("Sending....");
      const formData = new FormData(event.target as HTMLFormElement);
  
-     formData.append("access_key", "3eab47fd-b49b-4b26-8548-1a9775a21d40");
+     formData.append("access_key", import.meta.env.ACCESS_KEY);
  
-     const response = await fetch("https://api.web3forms.com/submit", {
+     const response = await fetch(import.meta.env.FORM_URL, {
        method: "POST",
        body: formData
      });
